@@ -14,7 +14,11 @@
 | --- | --- | --- |
 | <img src="docs/screenshots/settings-usage.png" width="240"> | <img src="docs/screenshots/settings-styles.png" width="240"> | <img src="docs/screenshots/open-link.png" width="240"> |
 
-截图里是「极简」风格的深色界面，别人的头像和昵称打了码。
+| 浅色的「原味」风格 | 封面先模糊 | 灰度模式 |
+| --- | --- | --- |
+| <img src="docs/screenshots/results-light.png" width="240"> | <img src="docs/screenshots/results-blur.png" width="240"> | <img src="docs/screenshots/results-gray.png" width="240"> |
+
+都是在 iPhone 上截的。前两排是「极简」风格的深色界面，别人的头像和昵称遮住了。
 
 ## 能做什么
 

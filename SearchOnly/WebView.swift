@@ -367,8 +367,9 @@ struct WebView: UIViewRepresentable {
                     let image = UIGraphicsImageRenderer(bounds: window.bounds).image { _ in
                         window.drawHierarchy(in: window.bounds, afterScreenUpdates: false)
                     }
-                    try? image.jpegData(compressionQuality: 0.7)?.write(to: URL.documentsDirectory.appending(path: "shot-\(name).jpg"))
-                    mark("saved shot-\(name).jpg")
+                    // 存成 PNG：截图要拿去放 README 和发帖，JPEG 压过以后字边上会糊
+                    try? image.pngData()?.write(to: URL.documentsDirectory.appending(path: "shot-\(name).png"))
+                    mark("saved shot-\(name).png")
                 }
             #endif
             default:

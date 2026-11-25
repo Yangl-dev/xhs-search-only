@@ -14,7 +14,11 @@ Xiaohongshu is a great place to search for first-hand experience, but opening it
 | --- | --- | --- |
 | <img src="docs/screenshots/settings-usage.png" width="240"> | <img src="docs/screenshots/settings-styles.png" width="240"> | <img src="docs/screenshots/open-link.png" width="240"> |
 
-The screenshots show the "minimal" style in dark mode. Other people's avatars and names are blurred. The app's interface is in Chinese.
+| The light "original" style | Blurred covers | Grayscale |
+| --- | --- | --- |
+| <img src="docs/screenshots/results-light.png" width="240"> | <img src="docs/screenshots/results-blur.png" width="240"> | <img src="docs/screenshots/results-gray.png" width="240"> |
+
+All taken on an iPhone. The first two rows show the "minimal" style in dark mode. Other people's avatars and names are covered. The app's interface is in Chinese.
 
 ## Features
 
