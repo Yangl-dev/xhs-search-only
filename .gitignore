@@ -1,0 +1,10 @@
+.DS_Store
+xcuserdata/
+build/
+DerivedData/
+
+# 自己的签名设置（团队 ID、bundle id），见 Signing.xcconfig
+Local.xcconfig
+# 本机工具和临时文件
+.claude/
+01/

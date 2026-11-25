@@ -1,0 +1,13 @@
+// 签名和 app 标识。
+//
+// 仓库里是占位值，自己装到手机上时：在这个文件旁边新建 Local.xcconfig（已在 .gitignore 里，不会提交），写上
+//
+//     DEVELOPMENT_TEAM = 你的 Apple 开发者团队 ID（Xcode → Settings → Accounts 里能看到）
+//     SO_BUNDLE_ID = com.你的名字.searchonly
+//
+// 不建这个文件也行：在 Xcode 的 Signing & Capabilities 里选自己的团队、改一下 Bundle Identifier。
+
+DEVELOPMENT_TEAM =
+SO_BUNDLE_ID = com.example.searchonly
+
+#include? "Local.xcconfig"

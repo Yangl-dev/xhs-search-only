@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- 其余键由 Xcode 根据 INFOPLIST_KEY_* 生成并合并进来；这里只放生成不了的数组类设置 -->
+<plist version="1.0">
+<dict>
+	<!-- 桌面小组件点一下打开 searchonly://search -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>searchonly</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>searchonly</string>
+			</array>
+		</dict>
+	</array>
+	<!-- 长按 app 图标的「搜索」，装上就有；最近搜索的几项在代码里动态加 -->
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>search</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>搜索</string>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>magnifyingglass</string>
+		</dict>
+	</array>
+</dict>
+</plist>
